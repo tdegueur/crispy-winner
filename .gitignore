@@ -1,1 +1,11 @@
-/target/
+### IDE - Eclipse
+.settings
+.classpath
+.project
+
+### IDE - IDEA IntelliJ
+.idea
+crispy-winner.iml
+
+### Maven build
+target
