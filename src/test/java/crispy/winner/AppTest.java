@@ -30,4 +30,10 @@ public class AppTest
    {
       assertTrue(false);
    }
+
+   @Test
+   public void failure3 ()
+   {
+      assertTrue(false);
+   }
 }
