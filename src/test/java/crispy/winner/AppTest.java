@@ -24,4 +24,10 @@ public class AppTest
    {
       assertTrue(false);
    }
+
+   @Test
+   public void failure2 ()
+   {
+      assertTrue(false);
+   }
 }
