@@ -16,6 +16,12 @@ public class AppTest
    @Test
    public void testApp()
    {
+      assertTrue(true);
+   }
+
+   @Test
+   public void failure ()
+   {
       assertTrue(false);
    }
 }
