@@ -1,38 +1,39 @@
 package crispy.winner;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+
+import org.junit.Test;
+
+import static org.junit.Assert.assertTrue;
 
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-    extends TestCase
+public class AppTest
 {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
+   /**
+    * Rigourous Test :-)
+    */
+   @Test
+   public void testApp()
+   {
+      assertTrue(true);
+   }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
+   @Test
+   public void failure ()
+   {
+      assertTrue(false);
+   }
 
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
-    }
+   @Test
+   public void failure2 ()
+   {
+      assertTrue(false);
+   }
+
+   @Test
+   public void failure3 ()
+   {
+      assertTrue(false);
+   }
 }
