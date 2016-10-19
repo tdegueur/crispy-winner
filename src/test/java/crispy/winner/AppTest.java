@@ -18,22 +18,4 @@ public class AppTest
    {
       assertTrue(true);
    }
-
-   @Test
-   public void failure ()
-   {
-      assertTrue(false);
-   }
-
-   @Test
-   public void failure2 ()
-   {
-      assertTrue(false);
-   }
-
-   @Test
-   public void failure3 ()
-   {
-      assertTrue(false);
-   }
 }
