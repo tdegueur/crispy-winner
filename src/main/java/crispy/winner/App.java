@@ -2,7 +2,7 @@ package crispy.winner;
 
 /**
  * Hello world!
- *
+ * Who wants some pecan pie?
  */
 public class App 
 {
